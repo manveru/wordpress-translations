@@ -1,0 +1,799 @@
+# Translation of WordPress - 4.7.x - Administration - Network Admin in Kurdish (Sorani)
+# This file is distributed under the same license as the WordPress - 4.7.x - Administration - Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-09 21:42:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ku_IQ\n"
+"Project-Id-Version: WordPress - 4.7.x - Administration - Network Admin\n"
+
+#: wp-admin/network/index.php:51 wp-admin/network/site-info.php:31
+#: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:30
+#: wp-admin/network/site-themes.php:30 wp-admin/network/site-users.php:33
+#: wp-admin/network/sites.php:43 wp-admin/network/user-new.php:27
+#: wp-admin/network/users.php:180
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\"> سەکۆی پشتیوانی</a>"
+
+#: wp-admin/network/site-info.php:194
+msgid "Attributes"
+msgstr "تایبەتمەندیەکان"
+
+#. translators: %s: File size in kilobytes
+#: wp-admin/network/settings.php:312
+msgid "%s KB"
+msgstr "%s کیلۆبایت"
+
+#. translators: %s: Default network name
+#: wp-admin/includes/network.php:151
+msgid "%s Sites"
+msgstr "%s ماڵپەڕەکان"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:476
+msgctxt "theme"
+msgid "Delete %s"
+msgstr "رەشکردنەوەی %s"
+
+#: wp-admin/network/themes.php:14
+msgid "Sorry, you are not allowed to manage network themes."
+msgstr "ببورە، تۆ ڕێگەپێدراو نیت بۆ بەڕێوەبردنی ڕووکارەکانی تۆڕ."
+
+#: wp-admin/network/themes.php:90
+msgid "Sorry, you are not allowed to delete themes for this site."
+msgstr "ببورە، تۆ ڕێگەپێدراو نیت بۆ ڕەشکردنەوەی ڕووکارەکان لەم ماڵپەڕەدا."
+
+#: wp-admin/network/sites.php:245
+msgid "Sorry, you are not allowed to delete that site."
+msgstr "ببورە، تۆ ڕێگەپێدراو نیت بۆ ڕەشکردنەوەی ئەم ماڵپەڕە."
+
+#: wp-admin/network/site-themes.php:14
+msgid "Sorry, you are not allowed to manage themes for this site."
+msgstr "ببورە، تۆ ڕێگەپێدراو نیت بۆ بەڕیوەبردنی ڕووکارەکانی ئەم ماڵپەڕە."
+
+#: wp-admin/network/site-new.php:17
+msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "ببورە، تۆ ڕێگەپێدراو نیت بۆ بۆ زیادکردنی ماڵپەڕ بۆ ئەم تۆڕە."
+
+#: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-users.php:14
+msgid "Sorry, you are not allowed to edit this site."
+msgstr "ببورە، تۆ ڕێگەپێدراو نیت بۆ دەستکاریکردنی ئەم ماڵپەڕە."
+
+#: wp-admin/network/settings.php:270
+msgid "The email address of the first comment author on a new site."
+msgstr "نیشاندانی ئیمەیل نووسەری یەکەم کۆمێنت لە ماڵپەڕ"
+
+#: wp-admin/network/settings.php:266
+msgid "First Comment Email"
+msgstr "ئیمەیلی یەکەم بۆچوون"
+
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
+#: wp-admin/includes/network.php:427
+msgid "That&#8217;s all, stop editing! Happy blogging."
+msgstr "That&#8217;s all, stop editing! Happy blogging."
+
+#. translators: 1: wp-config.php 2: location of wp-config file, 3: translated
+#. version of "That's all, stop editing! Happy blogging."
+#: wp-admin/includes/network.php:419
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+msgstr "بەشەکانی ژێرەوە بە  %1$s بە %2$s <strong>سەرەوەی</strong> هێڵ %3$s زیادبکەن."
+
+#. translators: 1: theme name, 2: theme author
+#: wp-admin/network/themes.php:138
+msgctxt "theme"
+msgid "%1$s by %2$s"
+msgstr "%1$s لەلایەن %2$s"
+
+#. translators: %s: edit page url
+#: wp-admin/network/user-new.php:80
+msgid "User added. <a href=\"%s\">Edit user</a>"
+msgstr "<a href=\"%s\">دەستکاری بەکارهینەر</a>"
+
+#: wp-admin/network/site-new.php:155
+msgctxt "email \"From\" field"
+msgid "Site Admin"
+msgstr "بەڕێوبەری ماڵپەڕ"
+
+#: wp-admin/network/site-new.php:205
+msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
+msgstr "تەنیا پیتە بچووکەکان لە (a-z)، ژمارەکان و داش ڕێ پێ دراون"
+
+#. translators: %s: host name
+#: wp-admin/includes/network.php:248 wp-admin/includes/network.php:297
+msgid "The internet address of your network will be %s."
+msgstr "ناونیشانی ئینتەرنێتەکەت دەبێت بە %s"
+
+#. translators: 1: localhost 2: localhost.localdomain
+#: wp-admin/includes/network.php:264
+msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
+msgstr "بەهۆی ئەوەی کە  %1$s بەکار دەهێنیت، لاپەڕەکانی لە وۆردپرێسەکەتدا هەن، دەبێت بەشە-پێرستیان بۆ بەکار بهێنیت. %2$s بەکار بهێنە لەگەڵیا ئەگەر بەشە دۆمەینت داناوە."
+
+#. translators: 1: site url 2: host name 3. www
+#: wp-admin/includes/network.php:237
+msgid "We recommend you change your siteurl to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
+msgstr "پشتیوانی دەکەین کە ناونیشانی وێبگەکەی بگۆڕیت بە   %1$s  پێش ئەوەی ڕایەڵە بکەیتەوە. دوای ئەوەش هەر دەتوانیت لە ڕێی پێشگری %3$s  سەردانی پەڕگەکەت بکەیت بە ناونیشانی  %2$s  بەڵام ئاگاداربە هیچ بەستەرێک بە پێشگری %3$s  کار ناکات."
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:408
+msgid "We recommend you back up your existing %s file."
+msgstr "پێسنیاردەکەین لە بڕگەی %s پاڵپشتی بگرن."
+
+#. translators: 1: wp-config.php 2: .htaccess
+#. translators: 1: wp-config.php 2: web.config
+#: wp-admin/includes/network.php:392 wp-admin/includes/network.php:400
+msgid "We recommend you back up your existing %1$s and %2$s files."
+msgstr "پێسنیاردەکەم لە بڕگەکانی %1$s وە %2$s پاڵپستی(بەکاپ) بگرن."
+
+#: wp-admin/includes/network.php:203
+msgid "You cannot change this later."
+msgstr "ئێوە ناتوانن ئەمە لەکاتێکی دیکە بگۆڕن."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:43
+#: wp-admin/network/site-info.php:189
+msgid "Deleted"
+msgstr "سڕرایه‌وه‌"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:333
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:425
+msgid "Enable"
+msgstr "تواناپێدان"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:230
+#: wp-admin/network/site-info.php:181
+msgid "Last Updated"
+msgstr "دوایین نوێکراوە"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:41
+#: wp-admin/network/site-info.php:187
+msgid "Archived"
+msgstr "ئەرشیفکرا"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:290
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "هەموو <span class=\"count\">(%s)</span>"
+msgstr[1] "هەموو <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:44
+#: wp-admin/network/site-info.php:191
+msgid "Mature"
+msgstr "پێگەیاندن"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:529
+msgid "Unarchive"
+msgstr "نائەرشیفکردن"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:360
+msgid "Never"
+msgstr "هەرگیز"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:192
+msgid "No sites found."
+msgstr "هیچ ماڵپەڕێک نەدۆزرایەوە."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:171
+msgctxt "user"
+msgid "Registered"
+msgstr "تۆماربوو"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:531
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "ئەرشیف"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:42
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:537
+#: wp-admin/network/site-info.php:188
+msgctxt "site"
+msgid "Spam"
+msgstr "سپام"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:203
+msgctxt "site"
+msgid "Mark as Spam"
+msgstr "نیشانی بکە وەک سپام"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:231
+#: wp-admin/network/site-info.php:177
+msgctxt "site"
+msgid "Registered"
+msgstr "تۆماربوو"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:204
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:535
+msgctxt "site"
+msgid "Not Spam"
+msgstr "سپام نییە"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:247
+msgid "Theme"
+msgstr "ڕووکار"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:541
+msgid "Broken Theme:"
+msgstr "ڕووکارى شکاو :"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:234
+msgid "No themes found."
+msgstr ".هیچ ڕووکارێک نەدۆزرایەوە"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:335
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:447
+msgid "Network Disable"
+msgstr "ناچالاککردنی ڕایەڵە"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:114
+msgctxt "user"
+msgid "Not Spam"
+msgstr "سپام نییە"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:573
+msgid "Visit Theme Site"
+msgstr "سەردانی ماڵپەڕی ڕووکار بکە"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:335
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:447
+msgid "Disable"
+msgstr "ناچالاککردن"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:302
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgid_plural "Broken <span class=\"count\">(%s)</span>"
+msgstr[0] "تێکشکاو <span class=\"count\">(%s)</span>"
+msgstr[1] "تێکشکاو <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:293
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "چالاکە <span class=\"count\">(%s)</span>"
+msgstr[1] "چالاکە <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:113
+msgctxt "user"
+msgid "Mark as Spam"
+msgstr "سپام نیشانە بکە"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:296
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "ناچالاککراون <span class=\"count\">(%s)</span>"
+msgstr[1] "ناچالاککراون <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:236
+msgid "You do not appear to have any themes available at this time."
+msgstr "وا دیارە هەنووکە هیچ ڕووکارێکت بەردەست نییە."
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:568
+msgid "Visit %s homepage"
+msgstr "ماڵپەڕی  %s ببینە"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:457
+msgid "Open %s in the Theme Editor"
+msgstr "کردنەوە %s  لەدەستکاریکەری رووکار."
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:441
+msgid "Network Disable %s"
+msgstr "ناچالاک کردن %s لە تۆڕ."
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:438
+msgid "Disable %s"
+msgstr "ناچالاککردن %s"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:419
+msgid "Network Enable %s"
+msgstr "چالاککردن  %s لەتۆڕ"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:416
+msgid "Enable %s"
+msgstr "چالاککردن %s"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:142
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "بەرێوەبەری گشتی <span class=\"count\">(%s)</span>"
+msgstr[1] "بەرێوەبەری گشتی <span class=\"count\">(%s)</span>"
+
+#. translators: 1: site name, 2: site tagline.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:334
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: wp-admin/network/site-users.php:332 wp-admin/network/user-new.php:117
+msgid "A password reset link will be sent to the user via email."
+msgstr "لینکی گۆڕانی وشەی نهێنی بەکارهینەر بە ئیمەیلەکەی دەنێریێت."
+
+#: wp-admin/network/site-users.php:39
+msgid "Site users list"
+msgstr "پێرستی بەکارهینەرانی ماڵپەڕ"
+
+#: wp-admin/network/sites.php:47
+msgid "Sites list navigation"
+msgstr "مینیۆی پێرستی مالپەرەکان"
+
+#: wp-admin/network/sites.php:48
+msgid "Sites list"
+msgstr "پیرستی ماڵپەڕەکان"
+
+#: wp-admin/network/themes.php:235
+msgid "Themes list navigation"
+msgstr "ڕێنیشاندەری پێرستی رووکارەکان"
+
+#: wp-admin/network/site-users.php:38
+msgid "Site users list navigation"
+msgstr "پێرستی بەکارهینەرانی ماڵپەر"
+
+#: wp-admin/network/site-users.php:37
+msgid "Filter site users list"
+msgstr "فەلتری پێرستی بەکارهینەرانی ماڵپەر"
+
+#: wp-admin/network/site-themes.php:36
+msgid "Site themes list"
+msgstr "پێرستی رووکارەکانی ماڵپەڕ"
+
+#: wp-admin/network/site-themes.php:35
+msgid "Site themes list navigation"
+msgstr "ڕێنیشاندەری پێرستی ڕووکارەکانی ماڵپەر"
+
+#: wp-admin/network/site-themes.php:34
+msgid "Filter site themes list"
+msgstr "فەلترکردنی پێرستی رووکارەکانی ماڵپەر"
+
+#: wp-admin/network/site-new.php:110
+msgid "The domain or path entered conflicts with an existing username."
+msgstr "دۆمەین و ئەو شوێنە کە نووسیوتانە لەگەڵ بەکارهێنەرێک تیکڵبوونی هەیە.(دووپاتە)"
+
+#: wp-admin/network/sites.php:75
+msgid "The requested action is not valid."
+msgstr "چالاکیەکەت ناڕەوایە"
+
+#: wp-admin/network/sites.php:65
+msgid "You are about to delete the site %s."
+msgstr "خەریکە ئەم ماڵپەڕە دەسڕیتەوە %s."
+
+#: wp-admin/network/sites.php:64
+msgid "You are about to mark the site %s as spam."
+msgstr "خەریکە ئەم ماڵپەڕە دیاریی دەکەیت وەکو  %s سپام."
+
+#: wp-admin/network/sites.php:63
+msgid "You are about to unspam the site %s."
+msgstr "خەریکە ئەم ماڵپەڕە لە سپام لا دەبەیت %s."
+
+#: wp-admin/network/sites.php:62
+msgid "You are about to archive the site %s."
+msgstr "خەریکە ئەم ماڵپەڕە دەخەیتە ئەرشیڤەوە %s."
+
+#: wp-admin/network/sites.php:61
+msgid "You are about to unarchive the site %s."
+msgstr "تۆ خەریکی ئەم ماڵپەڕە لە ئەرشیڤ دەر دەکەیت %s."
+
+#: wp-admin/network/sites.php:60
+msgid "You are about to deactivate the site %s."
+msgstr "وا ئەم ماڵپەڕە ناچالاک دەکەیت %s"
+
+#: wp-admin/network/sites.php:59
+msgid "You are about to activate the site %s."
+msgstr "تۆ ئێستا ماڵپەڕەکەت %s چالاک دەکەیت"
+
+#: wp-admin/network/site-users.php:300 wp-admin/network/user-new.php:129
+msgid "Add User"
+msgstr "زیادکردنی بەکارهینەر"
+
+#: wp-admin/network/site-users.php:249
+msgid "User created."
+msgstr "بەکارهینەر درووستکرا."
+
+#: wp-admin/network/site-users.php:246
+msgid "Select a user to remove."
+msgstr "بەکارهێنەر دیاریبکە بۆ سڕینەوە."
+
+#: wp-admin/network/site-users.php:252
+msgid "Enter the username and email."
+msgstr "نازناو و پۆستی ئەلکترۆنی بنووسە."
+
+#: wp-admin/network/menu.php:55 wp-admin/network/settings.php:19
+msgid "Network Settings"
+msgstr "ڕێکخستنەکانی ڕایەڵە"
+
+#: wp-admin/network/themes.php:125
+msgid "Delete Theme"
+msgstr "سڕینەوەی ڕووکار"
+
+#: wp-admin/network/site-new.php:178 wp-admin/network/site-new.php:188
+msgid "Add New Site"
+msgstr "زیادکردنی ماڵپەڕێکی نوێ"
+
+#. translators: %s: site name
+#: wp-admin/network/site-info.php:131 wp-admin/network/site-settings.php:84
+#: wp-admin/network/site-themes.php:163 wp-admin/network/site-users.php:193
+msgid "Edit Site: %s"
+msgstr "دەستکاری ماڵپەڕ: %s"
+
+#: wp-admin/network/settings.php:328
+msgid "Language Settings"
+msgstr "ڕێکخستنەکانی زمان"
+
+#: wp-admin/network/site-themes.php:183 wp-admin/network/themes.php:262
+msgid "Theme enabled."
+msgstr "ڕووکار چالاکە."
+
+#: wp-admin/network/site-themes.php:197 wp-admin/network/themes.php:284
+msgid "No theme selected."
+msgstr "هیچ ڕووکارێک دەستنیشان نەکراوە."
+
+#: wp-admin/network/site-settings.php:80
+msgid "Site options updated."
+msgstr "هەڵبژاردنەکانی ماڵپەڕ نوێکرایەوە."
+
+#: wp-admin/network/menu.php:41 wp-admin/network/themes.php:250
+msgctxt "theme"
+msgid "Add New"
+msgstr "زیادکرندی نوێ"
+
+#: wp-admin/network/site-users.php:240
+msgid "Select a user to change role."
+msgstr "بەکاربەر دیاری بکە بۆ گۆڕینی پلەی."
+
+#: wp-admin/network/user-new.php:49
+msgid "Cannot add user."
+msgstr "ناتوانی بەکارهێنەر زیادبکەی."
+
+#: wp-admin/network/themes.php:148
+msgid "Are you sure you wish to delete these themes?"
+msgstr "ئایا تۆ دڵنییای لە سڕینەوەی ئەم ڕووکارانە؟"
+
+#: wp-admin/network/site-users.php:234
+msgid "Enter the username of an existing user."
+msgstr "ناوی بەکارهێنەرێ بنووسە  بوونی هەبێ لە نێو بەکارهێنەرەکان."
+
+#: wp-admin/network/themes.php:286
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "تۆ ناتوانی ڕووکارێ بسڕیتەوە چالاک بێ لەسەر ماڵپەڕی سەرەکی."
+
+#: wp-admin/network/site-themes.php:191 wp-admin/network/themes.php:270
+msgid "Theme disabled."
+msgstr "ڕووکار ناچالاککرا."
+
+#: wp-admin/network/site-info.php:37 wp-admin/network/site-settings.php:36
+#: wp-admin/network/site-themes.php:57 wp-admin/network/site-users.php:52
+msgid "Invalid site ID."
+msgstr "ئای دی ماڵپەڕ نادرووستە."
+
+#: wp-admin/network/menu.php:40
+msgid "Installed Themes"
+msgstr "ڕووکارەکان دامەزران."
+
+#: wp-admin/network/menu.php:36
+msgid "Themes %s"
+msgstr "ڕووکارەکان %s"
+
+#: wp-admin/network/menu.php:28
+msgid "All Sites"
+msgstr "هەموو ماڵپەڕەکان"
+
+#. translators: 1: dashboard url, 2: network admin edit url
+#: wp-admin/network/site-new.php:172
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "ماڵپەڕ زیادکرا. <a href=\"%1$s\">سەردانی داشبۆرد بکە</a> یان <a href=\"%2$s\">دەستکاری ماڵپەڕ بکە</a>"
+
+#: wp-admin/network/menu.php:19
+msgid "Updates"
+msgstr "نوێکردنەوەکان"
+
+#: wp-admin/network/themes.php:161
+msgid "Yes, delete this theme"
+msgstr "بەڵێ، ئەم ڕووکارە بسڕەوە"
+
+#: wp-admin/includes/network.php:304 wp-admin/network/settings.php:105
+msgid "Network Title"
+msgstr "نانویشانی ڕایەأە"
+
+#: wp-admin/includes/network.php:234 wp-admin/includes/network.php:244
+#: wp-admin/includes/network.php:293
+msgid "Server Address"
+msgstr "ناونیشانی ڕاژە"
+
+#: wp-admin/includes/network.php:317
+msgid "Your email address."
+msgstr "پۆستی ئەلکترۆنی تۆ."
+
+#: wp-admin/includes/network.php:180 wp-admin/includes/network.php:229
+#: wp-admin/includes/network.php:270 wp-admin/includes/network.php:280
+msgid "Warning!"
+msgstr "ئاگاداری!"
+
+#: wp-admin/includes/network.php:208
+msgid "Sub-domains"
+msgstr "سەب-دۆمەینەکان"
+
+#: wp-admin/includes/network.php:113 wp-admin/includes/network.php:373
+#: wp-admin/includes/network.php:545 wp-admin/includes/network.php:585
+msgid "Warning:"
+msgstr "ئاگاداری:"
+
+#: wp-admin/includes/network.php:256
+msgid "Network Details"
+msgstr "زانیاری زیاتر لە سەر ڕایەڵە"
+
+#: wp-admin/includes/network.php:128
+msgid "Return to Dashboard"
+msgstr "گەڕانەوە بۆ داشبۆرد"
+
+#: wp-admin/network.php:71
+msgid "Network"
+msgstr "ڕایەڵە"
+
+#: wp-admin/network/users.php:70
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "ئاگاداری! ئه‌م به‌کارهێنه‌ره‌ %s ناتواندرێت ده‌ستکاری بکرێت ، چونکه‌ ئه‌م به‌کارهێنه‌ره‌ به‌رێوبه‌ری گشتی ــه‌ له‌م ماڵپه‌ڕه‌."
+
+#: wp-admin/network/site-new.php:24
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "ئەگەر پۆستی ئەلیکترۆنی بەڕێوەبەر بوونی نەبێت بۆ ماڵپەرە نوێیەکە لەبنکەی دراوە، بەکارهێنەرێكی نوێ دروست دەکرێت"
+
+#: wp-admin/network/sites.php:35
+msgid "Visit to go to the front-end site live."
+msgstr "سەردان بکە بۆ ڕۆیشتن بۆ ڕووكاری ڕاستەوخۆی ماڵپەر"
+
+#: wp-admin/network/sites.php:263
+msgid "Site marked as spam."
+msgstr "شوێن دیارییکرا وەک پۆستی نەخوازراو"
+
+#: wp-admin/network/sites.php:236
+msgid "Sites marked as spam."
+msgstr "شوێنەکان دیارییکرا وەک پۆستی نەخوازراو"
+
+#: wp-admin/network/users.php:203
+msgid "Users removed from spam."
+msgstr "بەکارهێنەرەکان لابرا لە پۆستی نەخوازراو"
+
+#: wp-admin/network/sites.php:260
+msgid "Site removed from spam."
+msgstr "شوێن لابرا لە پۆستی نەخوازراو"
+
+#: wp-admin/network/sites.php:233
+msgid "Sites removed from spam."
+msgstr "شوێنەکان لابرا لە پۆستی نەخوازراو."
+
+#: wp-admin/network/users.php:200
+msgid "Users marked as spam."
+msgstr "بەکارهێنەر دیارییکرا وەک پۆستی نەخوازراو"
+
+#: wp-admin/network/sites.php:239
+msgid "Sites deleted."
+msgstr "شوێنەکان سڕایەوە."
+
+#: wp-admin/network/sites.php:242
+msgid "Site deleted."
+msgstr "شوێن سڕایەوە."
+
+#: wp-admin/network/sites.php:257
+msgid "Site deactivated."
+msgstr "سایت ناچالاککرا"
+
+#: wp-admin/network/users.php:206
+msgid "Users deleted."
+msgstr "به‌کارهێنه‌ران سڕانه‌وه‌"
+
+#: wp-admin/network/sites.php:254
+msgid "Site activated."
+msgstr "سایت چالاککرا."
+
+#: wp-admin/network/sites.php:251
+msgid "Site unarchived."
+msgstr "سایت گه‌ڕێندرایه‌وه‌ له‌ ئه‌رشیف."
+
+#: wp-admin/network/sites.php:248
+msgid "Site archived."
+msgstr "سایت ئه‌رشیف کرا."
+
+#: wp-admin/network/site-new.php:115
+msgid "There was an error creating the user."
+msgstr "هەڵریرک ڕویدا لە کاتی دروست کردنی بەکار‌هێنەر."
+
+#: wp-admin/network/sites.php:91 wp-admin/network/sites.php:157
+msgid "Sorry, you are not allowed to change the current site."
+msgstr "بەداخەوە ئێوە ناتوانن ناوێ ئەم ماڵپەڕەی ئێستا بگۆرن."
+
+#: wp-admin/network/settings.php:297
+msgid "Upload file types"
+msgstr "پاشگرەکان بۆ بەرزکردنەوە"
+
+#: wp-admin/network/settings.php:289
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "قەبارەی بەرزکردنەوەی پەڕگە سنووردارکراوە بۆ %s مێگابایت"
+
+#: wp-admin/network/settings.php:232
+msgid "The first post on a new site."
+msgstr "یه‌که‌م بابه‌ت له‌ سایته نوێیه‌که‌.‌"
+
+#: wp-admin/network/settings.php:252
+msgid "The first comment on a new site."
+msgstr "یه‌که‌م لێدوان له‌ سایته‌ نوێیه‌که‌دا"
+
+#: wp-admin/network/settings.php:242
+msgid "The first page on a new site."
+msgstr "لاپه‌ڕه‌ی سه‌ره‌تا له‌ ماڵپه‌ری نوێ"
+
+#: wp-admin/network/settings.php:279
+msgid "The URL for the first comment on a new site."
+msgstr "نیشانەی یەکەم بۆچوون لە ماڵپەڕی نوێ"
+
+#: wp-admin/network/settings.php:261
+msgid "The author of the first comment on a new site."
+msgstr "نووسەرییەکەم بۆچوون لە ماڵپەڕی نوی"
+
+#: wp-admin/network/upgrade.php:67
+msgid "All done!"
+msgstr "هەموو جێبەجێکراوە!"
+
+#: wp-admin/network/settings.php:133
+msgid "Registration is disabled."
+msgstr "تۆمارکردن ناچلاککراوە."
+
+#: wp-admin/network/settings.php:136
+msgid "Both sites and user accounts can be registered."
+msgstr "ده‌توانن ماڵپه‌ڕ و هه‌ژماره‌ی به‌کارهێنه‌ر تۆماربکه‌ن"
+
+#: wp-admin/network/settings.php:134
+msgid "User accounts may be registered."
+msgstr "هەژمارەی بەکارهێنەران پێشتر تۆمارکراوە."
+
+#: wp-admin/network/settings.php:135
+msgid "Logged in users may register new sites."
+msgstr "ئەکارهینەران کە چوونەتەژووری هەژمارەکەیان دەتوانن ماڵپەڕی نوی تۆمار بکەن"
+
+#: wp-admin/network/settings.php:284
+msgid "Upload Settings"
+msgstr "ڕێکخستنەکانى نوێکردنەوە"
+
+#: wp-admin/network/settings.php:121
+msgid "Registration Settings"
+msgstr "ڕێکخستنەکانى تۆمارکردن"
+
+#: wp-admin/network/settings.php:203
+msgid "New Site Settings"
+msgstr "ڕێکخستنەکانى شوێنى نوێ"
+
+#: wp-admin/network/settings.php:358
+msgid "Enable administration menus"
+msgstr "چالاککردنی پێرستەکانی بەڕێوەبەر"
+
+#: wp-admin/network/site-new.php:80
+msgid "Missing email address."
+msgstr "ئەم ئیمەیلە بوونی نییە"
+
+#: wp-admin/network/site-new.php:77
+msgid "Missing or invalid site address."
+msgstr "ناونیشانی ماڵپەڕ بوونی نییە."
+
+#. translators: %s: network name
+#: wp-admin/network/site-new.php:140
+msgid "[%s] New Site Created"
+msgstr "[%s] شوێنى نوێی دروستکرا"
+
+#: wp-admin/network/upgrade.php:111
+msgid "Next Sites"
+msgstr "ماڵپەرەکانی دواتر"
+
+#: wp-admin/includes/network.php:313 wp-admin/network/settings.php:112
+msgid "Network Admin Email"
+msgstr "ڕایەڵەی پۆستی ئەلیکترۆنی بەڕێوەبەر"
+
+#: wp-admin/network/settings.php:287
+msgid "Site upload space"
+msgstr "بۆشایی بارکردنی سایت"
+
+#: wp-admin/network/settings.php:173
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "بەکارهینەران بۆتۆمارکردنی ئەم ماڵپەڕە ڕێنەدراوەن.ناوەکان بە دوکمەی بۆشایی جودابکەن."
+
+#: wp-admin/network/settings.php:157
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "پاش هەربار تۆمارکردنی ماڵپەر یان هەژمارەی بەکارهینەر ئیمەیلیک بۆ بەڕێوەبەر دەنیریێت."
+
+#: wp-admin/network/settings.php:212
+msgid "The welcome email sent to new site owners."
+msgstr "ئیمەیلی بەخێرهاتن بۆ خاوەن ماڵپەرەنویکان ناردرا."
+
+#: wp-admin/network/settings.php:237
+msgid "First Page"
+msgstr "پەڕەى یەکەم"
+
+#: wp-admin/network/settings.php:247
+msgid "First Comment"
+msgstr "لێدوانى یەکەم"
+
+#: wp-admin/network/settings.php:257
+msgid "First Comment Author"
+msgstr "یەکەم لێدوانى نووسەر"
+
+#: wp-admin/network/settings.php:331
+msgid "Default Language"
+msgstr "زمانى سەرەکى"
+
+#: wp-admin/network/site-new.php:259
+msgid "Add Site"
+msgstr "خستنەسەرى شوێن"
+
+#: wp-admin/network/settings.php:217
+msgid "Welcome User Email"
+msgstr "خۆشهاتی به‌کارهێنه‌ری پۆستی ئه‌لیکترۆنی "
+
+#: wp-admin/network/sites.php:107
+msgid "Confirm"
+msgstr "دڵنیابوون"
+
+#: wp-admin/network/settings.php:124
+msgid "Allow new registrations"
+msgstr "ڕێگه‌دان به‌ تۆماربوونی ناوی ئه‌ندامانی نوێ"
+
+#: wp-admin/network/settings.php:179
+msgid "Limited Email Registrations"
+msgstr "تۆمارکردنه‌کانی پۆستی ئه‌لیکترۆنی سنووردار کراوه‌"
+
+#: wp-admin/network/settings.php:162
+msgid "Add New Users"
+msgstr "زیادکردنی به‌کارهێنه‌ری نوێ"
+
+#: wp-admin/network/settings.php:151
+msgid "Registration notification"
+msgstr "وریاکردنه‌وه‌ی تۆمارکرن"
+
+#: wp-admin/network/site-new.php:247
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "به‌کارهێنه‌ری نوێ دروست ده‌کرێت ئه‌گه‌ر ئه‌م پۆسته‌ ئه‌له‌کترۆنییه‌ی سه‌ره‌وه‌ بوونی نه‌بێت له‌ بنکه‌ی دراوه‌"
+
+#: wp-admin/network/settings.php:307
+msgid "Max upload file size"
+msgstr "زۆرترین قه‌باره‌ی بارکردنی په‌ڕگه‌"
+
+#: wp-admin/network/settings.php:275
+msgid "First Comment URL"
+msgstr "به‌سته‌ری لێدوانی یه‌که‌م"
+
+#: wp-admin/network/site-users.php:255
+msgid "Duplicated username or email address."
+msgstr "دووبارەبوونەی ناوی بەکارهێنەر یان پۆستی ئەلیکترۆنی."
+
+#: wp-admin/network/settings.php:222
+msgid "The welcome email sent to new users."
+msgstr "پەیامی بەخێرهاتن نێردرا بۆ بەکارهێنەرە نوێیەكان."
+
+#: wp-admin/network/user-new.php:37
+msgid "Cannot create an empty user."
+msgstr "ناتوانرێت بەکارهێنەرێكی بەتاڵ دروستبکرێت"
+
+#: wp-admin/network/site-new.php:247
+msgid "The username and password will be mailed to this email address."
+msgstr "نازناو و تێپەڕەوشەکە دەنێرنرێت بۆ ئەم پۆستە ئەلیکترۆنی(ئیمەیڵ)ـە."
+
+#: wp-admin/network/site-new.php:243
+msgid "Admin Email"
+msgstr "پۆستى ئەلەکترۆنى بەڕێوەبەر"
+
+#: wp-admin/network/settings.php:169
+msgid "Banned Names"
+msgstr "ناوه‌ بەربەستکراوەکان"
+
+#: wp-admin/network/settings.php:192
+msgid "Banned Email Domains"
+msgstr "پۆستە ئەلیکترۆنی دۆمەینە بەربەستکراوەکان"
+
+#: wp-admin/network/settings.php:207
+msgid "Welcome Email"
+msgstr "پۆستە ئەلیکترۆنی بەخێرهێنان"
